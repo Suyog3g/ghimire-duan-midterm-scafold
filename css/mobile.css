@@ -6,8 +6,7 @@
     2. Grid
     3. Header
     4. Main 
-    5. Features
-    6. Footer
+    5. Footer
 
 */
 
@@ -172,6 +171,8 @@
     grid-column: 1/5;
     margin-left: 40px;
 }
+
+/* 3. ---footer--- */
 
 footer{
     height: 480px;
