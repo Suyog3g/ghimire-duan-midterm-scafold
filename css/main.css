@@ -1,0 +1,147 @@
+
+.container {
+    width: 1920px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.box-color {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.box-color2 {
+    background-color: aqua;
+    color: white;
+    text-align: center;
+}
+
+#header-logo {
+    width: 142px;
+    height: 71px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+#header-nav {
+    width: 215px;
+    height: 71px;
+    margin-top: 20px;
+    grid-column: 11/-1;
+}
+
+#drink-des {
+    width: 684px;
+    height: 622px;
+    margin-top: 100px;
+    margin-left: 40px;
+
+}
+
+#drink-img {
+    width: 770px;
+    height: 708px;
+    margin-top: 100px;
+    grid-column: 7/13;
+    
+}
+#main-header{
+    background-color: #4D1616;
+}
+
+/* Grid */
+
+.grid {
+    display: grid;
+    padding-left: 15px;
+    padding-right: 15px;
+    grid-template-columns: repeat(12, 122px);
+    grid-column-gap: 16px;
+}
+
+
+section {
+    padding-top: 200px;
+}
+
+
+#main-pro-des {
+    width: 684px;
+    height: 471px;
+    background-color: aqua;
+    margin-left: 40px;
+    
+}
+
+#main-pro-img {
+    width: 770px;
+    height: 557px;
+    background-color: aquamarine;
+    grid-column: 7/13;
+    
+}
+
+
+#main-pro-img2 {
+    width: 770px;
+    height: 557px;
+    background-color: aquamarine;
+    margin-left: 40px;
+    
+}
+
+#main-pro-des2 {
+    width: 648px;
+    height: 471px;
+    background-color: aqua;
+    grid-column: 8/13;
+    margin-right: 40px;
+}
+
+#info {width: auto; 
+       height: 766px; 
+       background-color: #4D1616;
+       text-align: center;
+       margin-top: 170px;
+} 
+
+
+#main-info {
+    width: 809px;
+    height: 265px;
+    background-color: #AA8888;
+    margin-left: 40px;
+    margin-top: 125px;
+}
+
+main {
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+footer {
+    height: 380px;
+    background-color: #4D1616;
+}
+
+#footer-logo {
+    width: 142px;
+    height: 71px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+#nav-footer {
+    width: 558px;
+    height: 71px;
+    margin-top: 40px;
+    grid-column: 3/6;
+}
+
+#text-footer {
+    width: 650px;
+    height: 251px;
+    grid-column: 8/13;
+    margin-top: 70px;
+}
