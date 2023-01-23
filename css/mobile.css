@@ -1,0 +1,112 @@
+
+#container {
+    width: 275px;
+    height: 100%;
+    margin: 0, auto;
+   
+}
+
+.box-color {
+    background-color: black;
+    
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 20px);
+    grid-template-rows: repeat(8, 20px);
+    grid-column-gap: 1px;
+}
+
+
+header {
+    margin-top: 20px;
+}
+
+#logo {
+    width: 51px;
+    height: 43px;
+    grid-column:2;
+}
+
+#nav-menu {
+    width: 58px;
+    height: 43px;
+    grid-column: 11/12;
+}
+
+
+.hero-text {
+    width: 211px;
+    height: 106px;
+    background-color: #AA8888;
+    margin-left: 33px;
+    
+}
+
+
+.hero-image-an {
+    width: 211px;
+    height: 569px;
+    background-color: #5F3E3E;
+    margin-left: 33px;
+
+}
+
+.tittle {
+    width: 211px;
+    height: 69px;
+    background-color: #AA8888;
+    grid-row: 2/-4;
+    margin-left: 33px;
+}
+
+#an-video {
+    width: 275px;
+    height: 482px;
+    background-color: #5F3E3E;
+    
+}
+#join-us {
+    width: 275px;
+    height: 993px;
+    background-color: #4D1616;
+}
+
+#join-tittle {
+    width: 187px;
+    height: 90px;
+    background-color: black;
+}
+
+footer{
+    height: 537px;
+    width: 275px;
+    background-color: #4D1616;
+}
+
+#footer-logo {
+    width: 51px;
+    height: 43px;
+    background-color: #AA8888;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#nav-footer {
+    width: 211px;
+    height: 71px;
+    background-color: #AA8888;
+    grid-row: 6/9;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+#text-footer {
+    position: absolute;
+    width: 211px;
+    height: 251px;
+    background-color: #AA8888;
+    margin-top: 260px;
+    margin-left: 20px;
+}
