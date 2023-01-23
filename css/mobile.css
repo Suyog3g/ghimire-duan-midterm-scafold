@@ -1,3 +1,22 @@
+/* 
+
+    CSS Guide
+
+    1. General Styles
+    2. Grid
+    3. Header
+    4. Main 
+    5. Features
+    6. Footer
+
+*/
+
+
+/* 1. ---General Styles--- */
+
+.hidden{
+    display: none;
+}
 
 #container {
     width: 275px;
@@ -7,106 +26,182 @@
 }
 
 .box-color {
-    background-color: black;
-    
+    background-color: #3E1515;
+    color: #fff;
+    text-align: center;
 }
+
+.box-color2 {
+    background-color: #AA8888;
+    color: white;
+    text-align: center;
+}
+
+.box-color3 {
+    background-color: #5F3E3E;
+    color: white;
+    text-align: center;
+}
+
+
+
+/* 2. ---Grid--- */
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(12, 20px);
-    grid-template-rows: repeat(8, 20px);
-    grid-column-gap: 1px;
+    grid-template-columns: repeat(4, 81px);
+    grid-column-gap: 10px;
 }
 
 
-header {
+/* 3. ---Header--- */
+
+#main-header {
+    width: 428px;
+    height: 1045px;
     margin-top: 20px;
+    background-color:#4D1616;
+    grid: 1/5;
 }
 
 #logo {
     width: 51px;
     height: 43px;
-    grid-column:2;
+    grid-column:1/2;
+    margin-left: 40px;
+    margin-top: 30px;
 }
 
 #nav-menu {
     width: 58px;
     height: 43px;
-    grid-column: 11/12;
+    grid-column: 4/5;
+    margin-left: 50px;
+    margin-top: 30px;
 }
 
 
-.hero-text {
-    width: 211px;
+#hero-text {
+    width: 255px;
     height: 106px;
-    background-color: #AA8888;
-    margin-left: 33px;
-    
+    margin: 80px 0px 0px 75px;    
 }
 
 
-.hero-image-an {
-    width: 211px;
-    height: 569px;
-    background-color: #5F3E3E;
-    margin-left: 33px;
-
+#hero-image {
+    width: 354px;
+    height: 659px;
+    margin: 50px 0px 0px 35px; 
+    grid-column: 1/-1;   
 }
 
-.tittle {
-    width: 211px;
+
+/* 3. ---main--- */
+
+
+#product {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    width: 428px;
+    height: 814px;
+}
+
+#product-title {
+    width: 284px;
     height: 69px;
-    background-color: #AA8888;
-    grid-row: 2/-4;
-    margin-left: 33px;
+    grid-row: 1/-4;
+    margin: 40px 40px 0 0px;
+    margin-right: 20px;
 }
 
-#an-video {
-    width: 275px;
-    height: 482px;
-    background-color: #5F3E3E;
-    
+
+#product-img {
+    width: 364px;
+    height: 557px;
+    margin-left: 30px;
+    margin-top: 0;
+    grid-column: 1/-4;
+    grid-row: 1/-2;
 }
+
+
+#video {
+    margin-top: 0px;
+    width: 428px;
+    height: 814px;
+}
+
+#video-title {
+    width: 284px;
+    height: 69px;
+    grid-row: 1/-4;
+    margin: 40px 0 0 70px;
+}
+
+#video-play {
+    width: 364px;
+    height: 557px;
+    margin: 30px;
+    grid-column: 1/-4;
+}
+
+
 #join-us {
-    width: 275px;
+    width: 428px;
     height: 993px;
     background-color: #4D1616;
 }
 
-#join-tittle {
-    width: 187px;
+#join-title {
+    width: 244px;
     height: 90px;
-    background-color: black;
+    grid-column: 2/-1;
+    margin: 50px 0 0 0px;
+}
+
+#join-para {
+    width: 284px;
+    height: 202px;
+    grid-column: 1/-1;
+   margin-left: 70px;
+}
+
+#join-img {
+    width: 354px;
+    height: 530px;
+    grid-column: 1/5;
+    margin-left: 40px;
 }
 
 footer{
-    height: 537px;
-    width: 275px;
+    height: 480px;
+    width: 428px;
     background-color: #4D1616;
+    margin-top: 30px;
 }
 
 #footer-logo {
     width: 51px;
     height: 43px;
-    background-color: #AA8888;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 40px;
+    grid-row: 1/2;
+    grid-column: 1/2;
 }
 
 #nav-footer {
-    width: 211px;
-    height: 71px;
-    background-color: #AA8888;
-    grid-row: 6/9;
-    margin-top: 30px;
-    margin-right: 20px;
+    width: 354px;
+    height: 60px;
+    grid-column: 1/5;
+    grid-row: 1/-1;
+    margin-top: 120px;
+    margin-left: 40px;
 }
 
 #text-footer {
-    position: absolute;
-    width: 211px;
-    height: 251px;
-    background-color: #AA8888;
-    margin-top: 260px;
-    margin-left: 20px;
+    width: 359px;
+    height: 177px;
+
+    margin-top: 0px;
+    margin-left: 40px;
 }
