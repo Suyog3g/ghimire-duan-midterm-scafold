@@ -1,0 +1,128 @@
+Web layout
+
+main-header
+   width: 1920px;
+ height: 1080px;
+header-logo
+    width: 142px;
+    height: 71px;
+header-nav
+  width: 215px;
+    height: 71px;
+hero-text
+  width: 684px;
+    height: 622px;
+hero-animation
+ width: 971px;
+    height: 708px;
+
+product-des 
+   width: 684px;
+    height: 417px;
+product-img
+   width: 971px;
+    height: 557px;
+
+
+video-play
+  width: 971px;
+    height: 572px; 
+video-text 
+ width: 648px;
+    height: 471px;
+
+
+footer-logo
+   width: 142px;
+    height: 71px;
+
+nav-footer
+   width: 558px;
+    height: 71px;
+
+text-footer
+ width: 786px;
+    height: 251px;
+
+
+
+
+Mobile-layout
+
+
+main-header
+ width: 428px;
+    height: 1045px;
+
+logo
+ width: 51px;
+    height: 43px;
+
+nav-menu
+ width: 58px;
+    height: 43px;
+
+hero-text
+ width: 255px;
+    height: 106px;
+
+hero-image
+ width: 354px;
+    height: 659px;
+
+
+product
+  width: 428px;
+    height: 814px; 
+
+product-title
+ width: 284px;
+    height: 69px;
+
+product-img
+ width: 364px;
+    height: 557px;
+
+video
+  width: 428px;
+    height: 814px;
+
+video-title 
+width: 284px;
+    height: 69px;
+
+video-play
+width: 364px;
+    height: 557px;
+
+join-us
+  width: 428px;
+    height: 993px;
+
+join-title
+ width: 244px;
+    height: 90px;
+
+join-para
+ width: 284px;
+    height: 202px;
+
+join-img
+width: 354px;
+    height: 530px;
+
+footer
+ height: 480px;
+    width: 428px;
+
+footer-logo
+ width: 51px;
+    height: 43px;
+
+nav-footer
+ width: 354px;
+    height: 60px;
+
+text-footer
+ width: 359px;
+    height: 177px;
